@@ -1,0 +1,34 @@
+#aml-home-banner {
+    background-image: url('../../../assets/orlando-florida.jpeg');
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aml-home-screen {
+    position: absolute;
+    background: var(--transblack);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#aml-home-screen > div {
+    max-width: 600px;
+    padding-bottom: 100px;
+}
+#aml-home-screen span {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 300;
+    text-shadow: 2px 5px 5px rgb(0,0,0);
+
+}
