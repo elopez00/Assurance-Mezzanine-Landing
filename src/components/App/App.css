@@ -2,7 +2,8 @@
 
 :root {
   --blue: #002d75;
-  --transblack: rgb(0,0,0,0.25);
+  --transblack: rgba(50, 48, 59, 0.767);
+  --lightblue: rgb(140, 140, 255);
 }
 
 body {

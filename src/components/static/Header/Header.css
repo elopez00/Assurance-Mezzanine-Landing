@@ -1,56 +1,43 @@
 .aml-header {
     width: 100vw;
-    border-top: 4px solid var(--blue);
     position: absolute;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.527);
     top: 0;
     z-index: 1;
 }
 
 #aml-header-navbar {
-    color: white;
-    display: grid;
     max-width: 1000px;
     margin: 0 auto;
-    grid-template-columns: 3fr 3fr minmax(75px, 2fr) 2fr 2fr 2fr;
+    display: flex;
     align-items: center;
-    justify-items: center;
-    margin-top: 10px;
+    justify-content: space-between;
 }
 
-#aml-header-logo {
-    background: var(--blue);
-    height: 75px;
-    width: 75px;
-    border-radius: 100%;
+#aml-header-navs {
+    display: flex;
+    align-items: center;
+}
+
+#aml-header-navs > span {
+    margin-left: 30px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: color 300ms;
+}
+
+#aml-header-navs > span:hover {
+    color: var(--lightblue);
+}
+
+.aml-header img{
+    filter: brightness(0) invert(1);
+    padding: 10px 0;
 }
 
 #aml-header-nav {
-    font-size: 1rem;
-    cursor: pointer;
-    transition: color 300ms;
-    position: relative;
-    width: 100%;
-    height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#arrow{
-    position: absolute;
-    top: -50px;
-    transform: rotate(45deg);
-    background: var(--blue);
-    height: 20px;
-    width: 20px;
-    content: "";
-    transition: top 300ms;
-}
-
-#aml-header-nav:hover {
-    color: var(--blue);
-}
-
-#aml-header-nav:hover > #arrow {
-    top: -20px;
 }
