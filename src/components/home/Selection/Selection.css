@@ -1,0 +1,89 @@
+.aml-selection {
+    background: var(--blue);
+    display: flex;
+    flex-direction: column;
+}
+
+#aml-selection-images {
+    background: linear-gradient(white 50%, var(--blue) 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+}
+
+#aml-selection-circles {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#aml-selection-image {
+    min-height: 200px;
+    width: 80%;
+    background-size: cover;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: box-shadow 300ms;
+}
+
+#aml-selection-image:hover {
+}
+
+.aml-selection-team {
+    background-image: url('../../../assets/conference-room.jpg');
+}
+
+.aml-selection-reqs {
+    background-image: url('../../../assets/orlando-florida.jpg');
+}
+
+.aml-selection-port {
+    background-image: url('../../../assets/portfolio-image.jpg')
+}
+
+#aml-selection-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    color: white;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    transform: translateY(-75px);
+}
+
+#aml-selection-text h3 {
+    text-align: center;
+    display: block;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+#aml-selection-text p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+#aml-selection-map {
+    width: 100%;
+    background-image: url('../../../assets/map.png');
+    height: 400px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#aml-selection-emblem {
+    height: 100px;
+    width: 100px;
+    background: var(--blue);
+}
