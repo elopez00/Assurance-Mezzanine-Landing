@@ -1,0 +1,35 @@
+.aml-banner {
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aml-banner h1 {
+    color: white;
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+}
+
+#aml-banner-screen {
+    height: 100%;
+    width: 100%;
+    background: var(--transblack);
+    display: flex;
+    align-items: flex-end;
+}
+
+#aml-banner-innerscreen {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#aml-banner-divider {
+    height: 8px;
+    width: 100px;
+    background: white;
+    margin-bottom: 40px;
+}

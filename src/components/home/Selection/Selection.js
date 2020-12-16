@@ -1,6 +1,6 @@
 import React from 'react'
 import './Selection.css'
-import map from '../../../assets/map.png'
+import logo from '../../../assets/trans-logo.png'
 
 export default function Selection(props) {
     return (
@@ -29,13 +29,15 @@ export default function Selection(props) {
                 </span>
                 <span>
                     <h3>Portfolio</h3>
-                    <p>View our diversified portfolio compoosed
+                    <p>View our diversified portfolio composed
                         of our current ventures
                     </p>
                 </span>
             </div>
             <div id="aml-selection-map">
-                <div id="aml-selection-emblem"/>
+                <div id="aml-selection-emblem">
+                    <img src={logo} />
+                </div>
             </div>
         </div>
     )

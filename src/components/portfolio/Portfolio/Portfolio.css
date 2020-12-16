@@ -1,0 +1,51 @@
+#aml-portfolio-current {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#aml-portfolio-current p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+#aml-portfolio-current h2 {
+    color: var(--blue);
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#aml-portfolio-divider {
+    height: 8px;
+    width: 100px;
+    background: var(--blue);
+}
+
+#aml-portfolio-investments {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+#aml-portfolio-investments > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    transition: border 300ms;
+}
+
+#aml-portfolio-investments > div:hover {
+    border-bottom: 1px solid var(--lightblue);
+}
+
+#aml-portfolio-investments > div img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#aml-portfolio-investments > div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
