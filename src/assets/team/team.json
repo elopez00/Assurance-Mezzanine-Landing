@@ -1,0 +1,56 @@
+    {
+        "seth": {
+            "name": "Seth Ellis",
+            "position": "CEO",
+            "email": "sellis@assurancemezz.com",
+            "desc": [
+                "Prior to founding Assurance Capital, Seth Ellis, was principal and co-founder of both Penta Mezzanine Fund and Florida Mezzanine Fund. He received a B.S. in Accounting from the University of Florida. He is the former CEO of Digital Infrared Imaging, Inc., where he secured venture capital and managed the company’s expansion from seven to more than 50 employees during a period of 18 different acquisitions. He also led the company’s merger with ICX Technologies, Inc. and assisted the company with its initial public offering. Mr. Ellis also co-founded and engineered the public sale of Florida Regional Emergency Services, the largest hospital-based ambulance management company in the United States at the time of sale. He is the former CFO of Waterman Healthcare Systems where he managed the company’s financial turnaround and facilitated its merger with Seventh Day Adventist Healthcare Systems.",
+                "Mr. Ellis was also a senior manager and auditor with Ernst & Young and KPMG for 10 years. He currently serves on the board of the University of Florida’s Warrington College of Business Administration’s Center of Entrepreneurship & Innovation, as well as the boards of the Lake and Sumter County Hospice and Cornerstone Hospice. Mr. Ellis’ principal roles in Fund management are business development, Fund management and operations, portfolio management, and accounting oversight. Mr. Ellis is also principally responsible for Assurance’s day-to-day operations, investor relations, portfolio management & enhancement and investment analysis. Mr. Ellis will sit on the Investment Committee."
+            ]
+        },
+        "david": {
+            "name": "David Ellis",
+            "position": "Director",
+            "email": "dellis@assurancemezz.com",
+            "desc": [
+                "Prior to founding Assurance Capital, David Ellis worked as vice president of business development for Penta Mezzanine Fund.  His responsibilities included business development, deal analysis and portfolio management.  David helped bring Penta’s deal flow from 250 deals in 2012 to over 500 deals in both 2015 and 2016.  Prior to joining Penta Mezzanine Fund, he worked for both KPMG in their advisory services department and at PCE, an investment banking firm located in Central Florida.",
+                "He received a B.S. in Food Resource Economics and a Master of Science in Entrepreneurship from the University of Florida.  Mr. Ellis will be principally responsible for Assurance’s business development, investor relations, and portfolio management.  Mr. Ellis will sit on the Investment Committee."
+            ]
+        },
+        "anthony": {
+            "name": "Anthony Yanni",
+            "position": "Director",
+            "email": "ayanni@assurancemezz.com",
+            "desc": [
+                "Prior to founding Assurance Capital, Anthony Yanni worked as Vice President of Penta Mezzanine Fund. His responsibilities included deal analysis, underwriting, due diligence, portfolio management, investor relations, and fund accounting. Previously, Mr. Yanni served as an Analyst at Florida Mezzanine Fund, a private equity mezzanine fund focused in lower-middle-market investments.",
+                "Mr. Yanni received his Bachelor of Science in Finance and a Master in Business Administration from the University of Central Florida. Mr. Yanni’s principal roles at Assurance Capital are underwriting, portfolio management, and investor relations. Mr. Yanni will sit on the Investment Committee."
+            ]
+        },
+        "jeffrey": {
+            "name": "Jeffrey Phillips",
+            "position": "Director",
+            "email": "jphillips@assurancemezz.com",
+            "desc": [
+                "Prior to joining Assurance Capital, Jeff Phillips worked in the senior lending space with a number of lending institutions and has a total of 22 years of financial services experience. He has been responsible for business development, underwriting, and portfolio management. He served as chairman of the loan committee at Old Florida National Bank, where he oversaw the security of their $400 million loan portfolio. More recently, Jeff has been employed by Texas-based American Momentum Bank, as Senior Lender for the Orlando market, for growth in the CRE and C&I loan portfolio.",
+                "Mr. Phillips received a bachelor’s degree in Economics from the University of Georgia. Mr. Phillips’ principal roles at Assurance Capital are to lead the underwriting efforts for new investments and portfolio management. Mr. Phillips will sit on the Investment Committee."
+            ]
+        },
+        "ryan": {
+            "name": "Ryan Koppe",
+            "position": "VP of Portfolio Management",
+            "email": "rkoppe@assurancemezz.com",
+            "desc": [
+                "Prior to joining Assurance Capital, Ryan Koppe was a Director in Charge of Transaction Advisory Services (financial due diligence) for the Charlotte office of RSM. Mr. Koppe has over 16 years of experience performing audits and financial due diligence services for corporate and private equity clients focused on the middle market. Prior to his role at RSM, Mr. Koppe was an audit partner at Vestal & Wiler CPAs, which is a CPA firm focused on providing accounting and related services to middle market companies primarily located in central Florida.",
+                "Mr. Koppe received a master’s degree in Accounting from Florida State University. Mr. Koppe’s principal role at Assurance Capital is to lead the portfolio management efforts. Mr. Koppe will sit on the Investment Committee"
+            ]
+        },
+        "forrest": {
+            "name": "Forrest Wooster",
+            "position": "fwooster@assurancemezz.com",
+            "email": "Associate",
+            "desc": [
+                "Prior to joining Assurance Capital, Mr. Wooster interned for the fund since its founding where he supported portfolio management and investment analysis. Mr. Wooster was extended an offer after graduating from Middle Tennessee State University where he received a B.S in Finance with a minor in Business Administration.",
+                "Mr. Wooster’s principal roles at Assurance Capital will include investment analysis and portfolio management."
+            ]
+        }
+    }

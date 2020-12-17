@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Portfolio.css'
 import Banner from '../../layout/Banner'
 import banner from '../../../assets/orlando-port.jpg'
+import VentureView from '../VentureView'
+import ventures from '../../../assets/investments/ventures.json'
 
 // current
 import buildersChoice from '../../../assets/investments/builders-choice.jpg'
@@ -41,49 +43,219 @@ import ghw from '../../../assets/investments/ghw.jpg'
 import financial from '../../../assets/investments/financial.jpg'
 
 export default function Portfolio(props) {
+    const [showView, toggleView] = useState(false);
+    const [name, setName] = useState("builders");
+    const [image, setImage] = useState(buildersChoice);
+
     return (
         <div className="aml-portfolio">
+            <VentureView image={image} project={ventures[name]} showView={showView} toggleView={() => toggleView(!showView)}/>
             <Banner image={banner} title="Portfolio" />
             <div id="aml-portfolio-current">
                 <h2 style={{paddingTop: 25}}>Current Investments</h2>
                 <div id="aml-portfolio-investments" style={{marginBottom: 100}}>
-                    <div><img src={buildersChoice}/></div>
-                    <div><img src={tmd} style={{width: "60%"}}/></div>
-                    <div><img src={sands} style={{width: "60%"}}/></div>
-                    <div><img src={oldmill} /></div>
-                    <div><img src={critHealth} /></div>
-                    <div><img src={healthpro} /></div>
-                    <div><img src={entia}/></div>
-                    <div><img src={turtle}/></div>
-                    <div><img src={ltech} /></div>
-                    <div><img src={millennium} /></div>
-                    <div><img src={webster} /></div>
-                    <div><img src={tebco} style={{width: "60%"}}/></div>
-                    <div><img src={pawz} style={{width: "100%"}}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("builders");
+                        setImage(buildersChoice);
+                    }}><img src={buildersChoice}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("tmd");
+                        setImage(tmd);
+                    }}><img src={tmd} style={{width: "60%"}}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("sands");
+                        setImage(sands);
+                    }}><img src={sands} style={{width: "60%"}}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("oldmill");
+                        setImage(oldmill);
+                    }}><img src={oldmill} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("critHealth");
+                        setImage(critHealth);
+                    }}><img src={critHealth} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("healthpro");
+                        setImage(healthpro);
+                    }}><img src={healthpro} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("entia");
+                        setImage(entia);
+                    }}><img src={entia}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("turtle");
+                        setImage(turtle);
+                    }}><img src={turtle}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("ltech");
+                        setImage(ltech);
+                    }}><img src={ltech} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("millennium");
+                        setImage(millennium);
+                    }}><img src={millennium} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("webster");
+                        setImage(webster);
+                    }}><img src={webster} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("tebco");
+                        setImage(tebco);
+                    }}><img src={tebco} style={{width: "60%"}}/></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("pawz");
+                        setImage(pawz);
+                    }}><img src={pawz} style={{width: "100%"}}/></div>
                 </div>
                 <h2>Past Investments</h2>
                 <p>companies/investments managed by members of our team in prior funds</p>
                 <div id="aml-portfolio-investments" style={{marginBottom: 100}}>
-                    <div><img src={foxtank} /></div>
-                    <div><img src={nyc} /></div>
-                    <div><img src={simplifi} /></div>
-                    <div><img src={andretti} /></div>
-                    <div><img src={xri} /></div>
-                    <div><img src={bae} /></div>
-                    <div><img src={aih} /></div>
-                    <div><img src={twinlab} /></div>
-                    <div><img src={alexander} /></div>
-                    <div><img src={level4} /></div>
-                    <div><img src={green} /></div>
-                    <div><img src={organics} /></div>
-                    <div><img src={aviation} /></div>
-                    <div><img src={method} /></div>
-                    <div><img src={margaritaville} /></div>
-                    <div><img src={orion} /></div>
-                    <div><img src={pub} /></div>
-                    <div><img src={kbp} /></div>
-                    <div><img src={ghw} /></div>
-                    <div><img src={financial} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("foxtank");
+                        setImage(foxtank);
+                    }}><img src={foxtank} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("nyc");
+                        setImage(nyc);
+                    }}><img src={nyc} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("simplifi");
+                        setImage(simplifi);
+                    }}><img src={simplifi} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("andretti");
+                        setImage(andretti);
+                    }}><img src={andretti} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("xri");
+                        setImage(xri);
+                    }}><img src={xri} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("bae");
+                        setImage(bae);
+                    }}><img src={bae} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("aih");
+                        setImage(aih);
+                    }}><img src={aih} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("twinlab");
+                        setImage(twinlab);
+                    }}><img src={twinlab} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("alexander");
+                        setImage(alexander);
+                    }}><img src={alexander} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("level4");
+                        setImage(level4);
+                    }}><img src={level4} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("green");
+                        setImage(green);
+                    }}><img src={green} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("organics");
+                        setImage(organics);
+                    }}><img src={organics} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("aviation");
+                        setImage(aviation);
+                    }}><img src={aviation} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("method");
+                        setImage(method);
+                    }}><img src={method} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("margaritaville");
+                        setImage(margaritaville);
+                    }}><img src={margaritaville} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("orion");
+                        setImage(orion);
+                    }}><img src={orion} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("pub");
+                        setImage(pub);
+                    }}><img src={pub} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("kbp");
+                        setImage(kbp);
+                    }}><img src={kbp} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("ghw");
+                        setImage(ghw);
+                    }}><img src={ghw} /></div>
+                    <div onClick={() => {
+                        toggleView(true);
+                        document.body.style.overflow = "hidden";
+                        setName("financial");
+                        setImage(financial);
+                    }}><img src={financial} /></div>
                 </div>
             </div>
         </div>

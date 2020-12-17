@@ -1,0 +1,235 @@
+{
+    "builders": {
+        "name": "Builder's Choice - Purpose First Group LLC",
+        "location": "Houston, TX",
+        "date": "December 2017",
+        "desc": "Purpose First Group, LLC (“PFG”) provides millwork, cabinets, windows, and countertops to multi-family, single-family and commercial markets within the states of Texas and Florida. PFG’s Texas operations are conducted through its wholly-owned subsidiary, Builder’s Choice, Inc., which is the largest family run building supply distributor for homebuilders in the Houston area. Assurance provided financing for PFG to enter into a 50/50 joint venture with Florida-based TMD Windows & Doors and S&S Craftsmen. This joint venture allows PFG to enter the fast-growing Florida market and will also bring custom millwork and custom cabinet manufacturing capabilities to its current customers.",
+        "website": "https://bldrschoice.com/"
+    },
+    "tmd": {
+        "name": "TMD Windows & Doors - Purpose First Group LLC",
+        "location": "Houston, TX",
+        "date": "December 2017",
+        "desc": "Purpose First Group, LLC (“PFG”) provides millwork, cabinets, windows, and countertops to multi-family, single-family and commercial markets within the states of Texas and Florida. PFG’s Texas operations are conducted through its wholly-owned subsidiary, Builder’s Choice, Inc., which is the largest family run building supply distributor for homebuilders in the Houston area. Assurance provided financing for PFG to enter into a 50/50 joint venture with Florida-based TMD Windows & Doors and S&S Craftsmen. This joint venture allows PFG to enter the fast-growing Florida market and will also bring custom millwork and custom cabinet manufacturing capabilities to its current customers.",
+        "website": "https://tmdcompanies.com/"
+    },
+    "sands": {
+        "name": "S&S Craftsmen",
+        "location": "Houston, TX",
+        "date": "December 2017",
+        "desc": "Purpose First Group, LLC (“PFG”) provides millwork, cabinets, windows, and countertops to multi-family, single-family and commercial markets within the states of Texas and Florida. PFG’s Texas operations are conducted through its wholly-owned subsidiary, Builder’s Choice, Inc., which is the largest family run building supply distributor for homebuilders in the Houston area. Assurance provided financing for PFG to enter into a 50/50 joint venture with Florida-based TMD Windows & Doors and S&S Craftsmen. This joint venture allows PFG to enter the fast-growing Florida market and will also bring custom millwork and custom cabinet manufacturing capabilities to its current customers.",
+        "website": "https://ssiwoodproducts.com/" 
+    },
+    "oldmill": {
+        "name": "Old Mill Brick",
+        "location": "Salt Lake City, UT",
+        "date": "February 2018",
+        "desc": "Founded in 2007, Old Mill Brick owns and distributes several patented, easy to install, thin brick panel systems that can be used with any thin brick, including tumbled and cast. The company’s flagship products called “BrickWeb” and “Colonial” are sold through major retail home improvement stores across North America including Lowes, Home Depot, and Amazon. The company’s thin brick systems used for both residential and commercial building applications.",
+        "website": "https://www.oldmillbrick.com/"
+    },
+    "critHealth": {
+        "name": "Critical Health - Healthcare Holdings LLC",
+        "location": "San Angelo, TX",
+        "date": "May 2018",
+        "desc": "Apogee Healthcare Holdings LLC (“AHH”) provides medical staffing services to various healthcare facilities throughout Texas and southern California. Under the name Critical Health Connection, AHH’s Texas division provides per diem nurse staffing services with a focus on state-owned and underserved healthcare facilities throughout rural Texas. HealthPro Network, the California division, is a medical staffing company serving prison and other healthcare systems primarily in southern California. ",
+        "website": "http://www.chcmedstaff.com/"
+    },
+    "healthpro": {
+        "name": "HealthPro Network - Healthcare Holdings LLC",
+        "location": "San Angelo, TX",
+        "date": "May 2018",
+        "desc": "Apogee Healthcare Holdings LLC (“AHH”) provides medical staffing services to various healthcare facilities throughout Texas and southern California. Under the name Critical Health Connection, AHH’s Texas division provides per diem nurse staffing services with a focus on state-owned and underserved healthcare facilities throughout rural Texas. HealthPro Network, the California division, is a medical staffing company serving prison and other healthcare systems primarily in southern California. ",
+        "website": "http://www.healthpronetwork.com/"
+    },
+    "entia": {
+        "name": "Entia, LLC",
+        "location": "Lake Mary, FL",
+        "date": "June 2018",
+        "desc": "Entia, LLC actively manages a closely held portfolio of businesses spanning multiple sectors, including sensors technology, software, electronic instruments, security and defense, energy services, medical devices, telecommunications, and industrials. Entia has grown companies from idea to middle-market transactions in these sectors through the application of their unique management and technical skill set, proprietary technology, and intellectual property.  ",
+        "website": "http://entiaventures.com/"
+    },
+    "turtle": {
+        "name": "Turtle Southeast, LLC",
+        "location": "Largo, FL",
+        "date": "June 2018",
+        "desc": "Founded in 1974, Turtle Southeast is a leading provider of asphalt milling services for both prime contractors and government agencies serving the maintenance, repair and construction needs of Florida’s roadways. Assurance provided a combination of debt and equity in support of a majority recapitalization of the company.",
+        "website": "http://www.turtlesoutheast.com/"
+    },
+    "ltech": {
+        "name": "L Tech Network Services, Inc.",
+        "location": "Satna Fe Springs, CA",
+        "date": "May 2019",
+        "desc": "For the past 25 years, L Tech Network Services, Inc. (“L Tech”) has been a premier installation specialist of all types of low voltage cables including copper, fiber optic and coaxial. L Tech also provides AutoCAD-updated floor plans showing cable pathways, termination points and other relevant information along with complete testing reports for each cable/strand. Assurance partnered with the sponsor (JK Holdings, LLC) in connection with the acquisition of L Tech.",
+        "website": "http://www.ltechnet.com/"
+    },
+    "millennium": {
+        "name": "Millennium Services of Florida",
+        "location": "Winter Garden, FL",
+        "date": "June 2019",
+        "desc": "Founded in 1997, Millennium Services of Florida (“MSF”) provides comprehensive commercial grounds maintenance services to clients throughout Central Florida comprising of landscape maintenance, design and installation, irrigation installation and servicing, as well as maintenance of traffic projects. Typical customers include office / industrial parks, multi-family communities, hotels, and condo / HOA’s. Assurance provided debt financing for the acquisition of MSF.",
+        "website": "http://www.millenniumservicesfl.com/"
+    },
+    "webster": {
+        "name": "Webster Electric Co., Inc.",
+        "location": "Collinsville, MS",
+        "date": "June 2019",
+        "desc": "Webster is an electrical contracting company headquartered in Collinsville, Mississippi. The company installs and maintains industrial, electrical and communications systems for highways, airports, government buildings, bridge upgrades, infrastructure upgrades, and maintenance related work. Assurance provided mezzanine debt in support of Providence Group, L.P.’s acquisition of Webster.",
+        "website": "http://www.webster-electric.com/"
+    },
+    "tebco": {
+        "name": "The E3 Company",
+        "location": "Kilgore, TX",
+        "date": "October 2019",
+        "desc": "The E3 Company (“E3” or the “Company”) designs and manufactures automated safety systems for customers engaged in the hydraulic fracturing process throughout the oil & gas industry. Its flagship product, the Safety RAT (Relief Automation Technology), as well as the newly designed BAT (Blowdown Automation Technology), help prevent and provide relief for over-pressure events. Utilization of these proprietary products allows drilling companies to ensure the safety of their frac-site personnel and reduce potential damage to high-value wellhead and drilling equipment.",
+        "website": "http://www.te3co.com/"
+    },
+    "pawz": {
+        "name": "Pawz, Inc.",
+        "location": "Canton, OH",
+        "date": "November 2019",
+        "desc": "Pawz is an E-commerce company that produces unique apparel, merchandise, jewelry, and other dog-themed products to dog lovers. The Company has a strong brand anchored by its over 2.5 million social media followers. As part of the Company’s philanthropic mission, Pawz donates 10% of profits to no-kill dog shelters.",
+        "website": "http://www.pawz.com/"
+    },
+
+
+    "foxtank": {
+        "name": "Fox Tank Company",
+        "location": "Kerrville, TX",
+        "date": "October 2016",
+        "desc": "Fox Tank is one of the leading oil storage tank manufacturers in Texas, serving the growing oil field production needs of the Permian Basin, Eagle Ford Shale, and Bakken Shale area. The company manufactures API-12F tanks in standard capacities that range from 90 to 1000 barrels, as well as a variety of ASME-certified separation equipment including vertical and horizontal heater treaters, gas separators and water knockouts.",
+        "website": "http://www.foxtankcompany.com/"
+    },
+    "nyc": {
+        "name": "Blackfield Office Suites 1, LLC",
+        "location": "New York, NY",
+        "date": "September 2016",
+        "desc": "Blackfield does business as NYC Office Suites, a leading provider of turnkey executive offices and modern office space in four Midtown Manhattan locations to professionals in the legal, financial, and marketing industries—among many others.",
+        "website": "https://www.nycofficesuites.com/"
+    },
+    "simplifi": {
+        "name": "Simplifi Wireless Group",
+        "location": "Alpharetta, GA",
+        "date": "April 2016",
+        "desc": "Simplifi develops in-building wireless systems across the United States. With more than 140 combined years of experience in the telecommunications industry, Simplifi is a leader in the carrier-supported, neutral-host distributed antenna system market and offers a full-spectrum solution including financing, engineering, construction, and management to commercial office buildings, hospitals, colleges and universities, hotels, convention centers, shopping malls, and sporting venues.",
+        "website": "http://simplifiwg.com/"
+    },
+    "andretti": {
+        "name": "AIKG, LLC",
+        "location": "Roswell, GA",
+        "date": "February 2016",
+        "desc": "Andretti Indoor Karting & Games operates premium indoor entertainment complexes featuring high-speed karting and a variety of other exciting entertainment offerings including arcade video games, racing simulators, rock walls, ropes courses, zip lines, luxury bowling, and laser tag arenas along with full-service restaurants and bars. ",
+        "website": "http://andrettikarting.com/"
+    },
+    "xri": {
+        "name": "XRI Blue",
+        "location": "Midland, TX",
+        "date": "November 2015",
+        "desc": "XRI Blue is an advanced water exploration, evaluation, production and services company focused on the oil and gas industry that utilizes a series of proprietary technologies and state-of-the-art procedures to map, monitor, produce, manage, sell and transfer both potable and non-potable water. ",
+        "website": "http://www.xriblue.com/"
+    },
+    "bae": {
+        "name": "BAE Energy Management, LLC",
+        "location": "Woodbury, NY",
+        "date": "July 2015",
+        "desc": "BAE is a leading provider of specialized back-office services to energy service companies (ESCOs) in the Northeastern U.S. BAE’s comprehensive offerings include load forecasting, supply purchasing, pipeline optimization, delivery logistics, balancing and settlement, market intelligence, and regulatory support, among others. Using BAE’s full-spectrum solution allows ESCOs, which operate as alternative retail providers in states with deregulated energy markets, to focus on their core business of supplying retail natural gas and electricity to commercial and residential customers.",
+        "website": ""
+    },
+    "aih": {
+        "name": "Access Integrated Healthcare",
+        "location": "Glendale, CA",
+        "date": "April 2015",
+        "desc": "AIH is a healthcare services company leveraging excess capacity prevalent throughout the industry. AIH’s innovative business model, designed to contain healthcare costs while enhancing patient care, combines company-owned facilities with deeply integrated extended network partners. The company is currently focused on providing comprehensive diagnostic imaging services primarily to the workers’ compensation market",
+        "website": "http://www.accessih.com/"
+    },
+    "twinlab": {
+        "name": "Twinlab Consolidated Holdings, Inc.",
+        "location": "Hauppauge, NY",
+        "date": "November 2014",
+        "desc": "Manufacturer of vitamins, minerals, sports nutrition products, special formulas and amino acids. Brands include: Nature’s herbs and alvita herbal teas. ",
+        "website": "https://www.twinlab.com/"
+    },
+    "alexander": {
+        "name": "Alexander Tank Co.",
+        "location": "Luling, TX",
+        "date": "February 2014",
+        "desc": "Alexander Tank Co. makes oil field tanks, stairway systems and complementary products for oil & gas companies in Texas, New Mexico and Oklahoma. ",
+        "website": "http://www.alexandertank.com/"
+    },
+    "level4": {
+        "name": "Level Four Orthotics and Prosthetics, Inc.",
+        "location": "Winston-Salem, NC",
+        "date": "February 2014",
+        "desc": "Level Four Orthotics and Prosthetics focuses on providing orthotic and prosthetic products and related services throughout 38 clinics across the Mid-Atlantic, Southeast and Southwest. Level Four allows its clinicians to focus on exemplary care to its special needs patients by supporting them through its centralized corporate headquarters with full product manufacturing capabilities, as well as purchasing, human resources, accounting, billing, insurance reimbursement and collection functions.",
+        "website": "http://www.level4oandp.com/"
+    },
+    "green": {
+        "name": "Green Distribution, LLC",
+        "location": "Secaucus, NJ",
+        "date": "July 2013",
+        "desc": "Green Distribution, LLC is one of the largest producers and distributors of print merchandise on the East Coast. Founded in 2009, the company utilizes screen printing and heat transfer technology to apply custom designed or licensed artwork to a variety of apparel and non-apparel items. ",
+        "website": "http://www.greendistro.com/"
+    },
+    "organics": {
+        "name": "Organic Holdings, LLC",
+        "location": "Gainesville, FL",
+        "date": "December 2012",
+        "desc": "The company provides nutritional supplements based on natural and organic ingredients focused on longevity, optimal wellness, and weight loss. Founded in 2009, the company develops, commercializes, and distributes science-based products mainly through health retail and TV media. ",
+        "website": "http://www.reserveage.com/home.php"
+    },
+    "aviation": {
+        "name": "Aviation Inflatables",
+        "location": "Lauderdale Lakes, FL",
+        "date": "May 2012",
+        "desc": "Aviation Inflatables, Inc. specializes in the repair, overhaul and maintenance of emergency evacuation devices such as life rafts, life jackets, survival kits, fire extinguishers and other emergency equipment related to the aviation industry.",
+        "website": "http://www.av-inflatables.com/"
+    },
+    "method": {
+        "name": "Method Holdings",
+        "location": "Atlanta, GA",
+        "date": "March 2012",
+        "desc": "Method is a financial holding company formed in 2011 to aggregate a national footprint of select CPA-owned Wealth Management Practices (WMPs), each with Assets Under Management (AUM) of between $50M-$2B.",
+        "website": "http://www.methodcpa.com/"
+    },
+    "margaritaville": {
+        "name": "Margaritaville",
+        "location": "Orlando, FL",
+        "date": "January 2012",
+        "desc": "Florida Mezzanine provided capital for the acquisition and conversion of a high visibility restaurant into a Jimmy Buffett’s Margaritaville franchise restaurant. The location opened in November 2012 in Sydney, New South Wales, Australia.",
+        "website": "http://www.margaritaville.com/"
+    },
+    "orion": {
+        "name": "Orion Technologies",
+        "location": "Melbourne, FL",
+        "date": "October 2011",
+        "desc": "Orion Technologies provides custom-designed and standard Single Board Computer (SBC) hardware solutions for commercial, industrial, aerospace, COTS (commercial off the shelf) and military applications.",
+        "website": "http://www.otisolutions.com/"   
+    },
+    "pub": {
+        "name": "The Pub",
+        "location": "Cincinnati, OH",
+        "date": "July 2011",
+        "desc": "Pub Group Investments operates 12 Pub-themed restaurants in Florida, Kentucky, and Ohio. The company is headquartered in Cincinnati, Ohio.",
+        "website": "http://www.experiencethepub.com/"
+    },
+    "kbp": {
+        "name": "KBP Foods",
+        "location": "Overland Park, KS",
+        "date": "April 2011",
+        "desc": "KBP Foods operates 250 quick service restaurants as a franchisee under the YUM! Brands, Inc. umbrella, primarily within the KFC and Taco Bell concepts. The company is growing quickly and has recently become the fourth largest YUM! franchisee in North America. KBP Foods has locations across seven states. ",
+        "website": "http://www.kbp-foods.com/"
+    },
+    "ghw": {
+        "name": "Great HealthWorks",
+        "location": "Hollywood, FL",
+        "date": "January 2010 and December 2011",
+        "desc": "Great HealthWorks, based in Hollywood, Florida, is the maker and distributor of Omega XL®. Omega XL® is a completely natural super-food made from the oil of the New Zealand green-lipped mussel (Perna canaliculus). Omega XL® contains a unique combination of 30 different fatty acids and has shown to improve swelling, stiffness, bronchial tightness, allergy symptoms and pain due to inflammatory related conditions. ",
+        "website": "http://www.greathealthworks.com/"
+    },
+    "financial": {
+        "name": "Association Financial Services",
+        "location": "Miami, FL",
+        "date": "July 2009 and February 2011",
+        "desc": "Association Financial Services provides accounts receivable services and specialty lending services to condominium and homeowner associations. Through AFS’s patent-pending business process, the firm specializes in maintaining and improving the financial condition of community associations, boosting cash flow by combining receivables management and a revolving credit facility to insure consistent funding to an association for operations. ",
+        "website": "http://www.afs.com/"
+    }
+}
