@@ -1,11 +1,10 @@
 ### Hey Gaba, I know you want to figure this out
-
-I am going to try to explain this simply so you know what to do... you don't have to understand any of the code or anything of what's going on all you need to know is
+I am going to try to explain this simply so you know what to do... you don't have to understand any of the code or anything of what's going on all you need to know is:
 - how to start the project (show others locally)
 - how to build the project (compressed down to the html and js files)
 
-### Dtart the project
-To start the project, you are going to have to open the terminal in the root folder of this project and type this in the command line
+### Start the project
+To start the project, you are going to have to open the terminal in the root folder of this project and type this in the command line:
 ```
 $ npm i
 ```
@@ -18,7 +17,7 @@ $ npm start
 This should run the project on localhost:3000, and you can play around with it, take screen shots etc.
 
 ### Build the project
-To build the project, you are going to have to open the terminal in the root folder of this project and type this in the command line
+To build the project, you are going to have to open the terminal in the root folder of this project and type this in the command line:
 ```
 npm i && npm build
 ```
