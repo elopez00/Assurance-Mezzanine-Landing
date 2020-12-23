@@ -57,3 +57,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+    #aml-home-banner span {
+        font-size: 2rem;
+    }
+    #aml-home-banner p {
+        font-size: 1rem;
+    }
+}

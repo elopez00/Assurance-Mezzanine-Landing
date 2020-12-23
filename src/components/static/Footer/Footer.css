@@ -97,3 +97,21 @@
 #aml-footer-linkedin:hover {
     background: darkgray;
 }
+
+@media only screen and (max-width: 800px) {
+    #aml-footer-selections {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #aml-footer-selections > span {
+        display: none;
+    }
+
+    #aml-footer-selectionbar img {
+        height: 75px;
+        width: 75px;
+    }
+}

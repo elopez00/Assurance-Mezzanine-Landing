@@ -31,9 +31,6 @@
     transition: box-shadow 300ms;
 }
 
-#aml-selection-image:hover {
-}
-
 .aml-selection-team {
     background-image: url('../../../assets/conference-room.jpg');
 }
@@ -112,3 +109,50 @@
     transform: rotate(45deg);
     z-index: 0;
 }
+
+#aml-selection-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .aml-selection > span {
+        display: none;
+    }
+    
+    #aml-selection-mobile > span {
+        display: inline-block;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #aml-selection-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding: 50px 0;
+    }
+
+    #aml-selection-mobile span > div {
+        width: 250px;
+        height: 150px;
+        margin-top: 20px;
+    }
+    
+    #aml-selection-mobile p {
+        margin-top: 0;
+        width: 250px;
+    }
+
+    #aml-seleciton-mobile h3 {
+        transform: none;
+        margin: 0;
+    }
+
+    #aml-selection-image {
+        min-height: 0px;
+    }
+} 

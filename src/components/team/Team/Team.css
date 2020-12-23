@@ -11,7 +11,8 @@
 
 #aml-team p {
     font-weight: 300;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
 }
 
 #aml-team-grid {
@@ -44,6 +45,7 @@
 
 #aml-team-grid p {
     margin-top: 5px;
+    text-align: center;
 }
 
 #aml-team-grid img {
@@ -51,4 +53,22 @@
     max-height: 150px;
     margin: 0 auto;
     border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #aml-team {
+        margin: 0 35px;
+        width: auto;
+    }
+    #aml-team > p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    #aml-team-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    #aml-team-grid img {
+        width: 80%;
+    }
 }

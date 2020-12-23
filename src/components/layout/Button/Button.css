@@ -17,6 +17,21 @@
     font-weight: bold;
 
 }
+
 #trans-white:hover {
     background: var(--lightblue);
+}
+
+#border-blue {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 300ms;
+}
+
+#border-blue:hover {
+    background: var(--transblack);
 }

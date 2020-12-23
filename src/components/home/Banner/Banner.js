@@ -13,8 +13,8 @@ export default function Banner(props) {
                         $3 to $20 million of customized growth solutions to profitable, 
                         lower-middle-market companies.
                     </p>
-                    <Button variant="trans-white" style={{ marginRight: 20}}>Portfolio</Button>
-                    <Button variant="trans-white">Contact</Button>
+                    <Button variant="trans-white" style={{ marginRight: 20}} onClick={() => window.location.href = "/portfolio"}>Portfolio</Button>
+                    <Button variant="trans-white" onClick={() => window.location.href = "/team#aml-contact-screen"}>Contact</Button>
                 </div>
             </div>
         </div>

@@ -9,6 +9,7 @@
     align-items: center;
     left: 0;
     top: 0;
+    overflow: auto;
 }
 
 .aml-venture-view i {
@@ -52,4 +53,21 @@
 
 #aml-venture-view a {
     color: var(--blue);
+}
+
+@media only screen and (max-width: 800px) {
+    #aml-venture-view {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 1fr;
+        padding: 0 35px;
+        justify-items: center;
+        gap: 0;
+        height: 100%;
+    }
+    #aml-venture-view a {
+        padding-bottom: 35px;
+    }
+    #aml-venture-view img {
+        align-self: center;
+    }
 }

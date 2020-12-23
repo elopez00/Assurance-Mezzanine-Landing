@@ -33,3 +33,15 @@
     background: white;
     margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 1000px) {
+    #aml-banner-innerscreen {
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .aml-banner h1 {
+        font-size: 2.5rem;
+    }
+} 

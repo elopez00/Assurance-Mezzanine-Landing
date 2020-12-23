@@ -90,3 +90,19 @@
 #aml-message-input input::placeholder {
     color: lightgray
 }
+
+@media only screen and (max-width: 800px) {
+    .aml-contact-me {
+        height: 100%;
+    }
+    #aml-message-input > span {
+        display: flex;
+        flex-direction: column;
+    }
+    #aml-contact-content p {
+        margin: 20px 35px;
+    }
+    #aml-message-input {
+        margin: 0 30px;
+    }
+}

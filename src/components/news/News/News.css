@@ -1,0 +1,39 @@
+#aml-news {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 75px 35px;
+}
+
+#aml-news h3 {
+    background: var(--blue);
+    color: white;
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+#aml-news h1 {
+    color: var(--blue);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#aml-news p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+    margin: 35px 0;
+}
+
+#aml-news-divider {
+    height: 8px;
+    width: 200px;
+    background: var(--blue);
+    margin: 35px auto;
+}
+
+@media only screen and (max-width: 800px) {
+    #aml-news p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}

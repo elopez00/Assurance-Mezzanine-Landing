@@ -33,11 +33,44 @@
     color: var(--lightblue);
 }
 
-.aml-header img{
+.aml-header img {
     filter: brightness(0) invert(1);
     padding: 10px 0;
 }
 
 #aml-header-nav {
     display: flex;
+}
+
+.aml-header button {
+    margin-right: 10px;
+}
+
+#aml-hamburger {
+    display: none;
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    left: 40px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    #aml-hamburger {
+        display: block
+    }
+    #aml-header-navs > span {
+        display: none;
+    }
+    #aml-header-navs {
+        justify-content: space-around;
+    }
+    #aml-header-navbar > button {
+        position: absolute;
+        right: 10px;
+    }
+    #aml-header-navbar {
+        position: relative;
+        justify-content: space-around;
+    }
 }
