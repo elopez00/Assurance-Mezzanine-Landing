@@ -1,5 +1,6 @@
 import React from 'react'
 import './Selection.css'
+import { Link } from 'react-router-dom'
 import logo from '../../../assets/trans-logo.png'
 
 export default function Selection(props) {
@@ -8,9 +9,9 @@ export default function Selection(props) {
             <span>
                 <div id="aml-selection-images">
                     <div id="aml-selection-circles">
-                    <div className="aml-selection-team" id="aml-selection-image"/>
-                    <div className="aml-selection-reqs" id="aml-selection-image"/>
-                    <div className="aml-selection-port" id="aml-selection-image"/>
+                        <div className="aml-selection-team" id="aml-selection-image" onClick={() => window.location.href = "/team"}/>
+                        <div className="aml-selection-reqs" id="aml-selection-image" onClick={() => window.location.href = "/investment-criteria"}/>
+                        <div className="aml-selection-port" id="aml-selection-image" onClick={() => window.location.href = "/portfolio"}/>
                     </div>
                 </div>
                 <div id="aml-selection-text">
@@ -38,7 +39,7 @@ export default function Selection(props) {
             </span>
             <div id="aml-selection-mobile">
                 <span>
-                    <div className="aml-selection-team" id="aml-selection-image"/>
+                    <div className="aml-selection-team" id="aml-selection-image" onClick={() => window.location.href = "/team"}/>
                     <h3>Team</h3>
                     <p>The Assurance Mezzanine team is composed
                         of our best and brightest to assure
@@ -46,7 +47,7 @@ export default function Selection(props) {
                     </p>
                 </span>
                 <span>
-                    <div className="aml-selection-reqs" id="aml-selection-image"/>
+                    <div className="aml-selection-reqs" id="aml-selection-image" onClick={() => window.location.href = "/investment-criteria"}/>
                     <h3>Investment Criteria</h3>
                     <p>Assurance Mezzanine provides customized
                         growth solutions to profitable lower-middle-
@@ -54,7 +55,7 @@ export default function Selection(props) {
                     </p>
                 </span>
                 <span> 
-                    <div className="aml-selection-port" id="aml-selection-image"/>
+                    <div className="aml-selection-port" id="aml-selection-image" onClick={() => window.location.href = "/portfolio"}/>
                     <h3>Portfolio</h3>
                     <p>View our diversified portfolio composed
                         of our current ventures
