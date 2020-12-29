@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Contact.css'
 import Button from '../../layout/Button'
 import emailjs, { init } from 'emailjs-com'
@@ -9,6 +9,10 @@ export default function Contact(props) {
     // state
     const [requested, messageRequested] = useState(false);
     const [sent, messageSent] = useState(false);
+
+    useEffect(() => {
+        sent && setTimeout(() => messageSent(false), 3000);
+    })
 
     const sendMail = event => {
         event.preventDefault();
@@ -33,6 +37,9 @@ export default function Contact(props) {
     return (
         <div className="aml-contact-me">
             <div id="aml-loading-screen" style={{top: requested && !sent ? 20 : -50}}/>
+            <div id="aml-sent-modal" style={{top: sent ? 20 : -50}}>
+                <div>Sent<i className="material-icons">check</i></div>
+            </div>
             <div id="aml-contact-screen">
                 <div id="aml-contact-content">
                     <h1>Contact Us</h1>

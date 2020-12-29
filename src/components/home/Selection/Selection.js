@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import logo from '../../../assets/trans-logo.png'
 
 export default function Selection(props) {
+    
+
     return (
         <div className="aml-selection">
             <span>

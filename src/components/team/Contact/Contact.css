@@ -125,3 +125,30 @@
     border-radius: 50px;
     box-shadow: 1px 1px 5px rgb(0,0,0,0.5);
 }
+
+#aml-sent-modal {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    transition: top 300ms;
+}
+
+#aml-sent-modal > div {
+    padding: 10px 20px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+#aml-sent-modal i {
+    font-size: 1rem;
+    color: lightgreen;
+    padding-left: 5px;
+}
