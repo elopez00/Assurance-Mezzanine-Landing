@@ -106,3 +106,22 @@
         margin: 0 30px;
     }
 }
+
+#aml-loading-screen {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 300;
+    transition: top 300ms;
+}
+
+#aml-loading-screen::after {
+    content: "Loading . . .";
+    padding: 10px 20px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.5);
+}
