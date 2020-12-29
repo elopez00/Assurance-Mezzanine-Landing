@@ -19,26 +19,26 @@ export default function Footer(props) {
                     document.body.style.overflow = "none";
                 }}>menu</i>
                 <div id="aml-footer-selections">
-                    <span>
-                        <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/portfolio#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             Portfolio
                         </Link>
                     </span>
-                    <span>
-                        <Link to="/investment-criteria" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/investment-criteria#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             Investment Criteria
                         </Link>
                     </span>
                     <Link to="/" style={{ textDecoration: "none"}}>
                         <img id="aml-footer-logo" src={logo} height="75"/>
                     </Link>
-                    <span>
-                        <Link to="/team" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/team#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             Team
                         </Link>
                     </span>
-                    <span>
-                        <Link to="/news" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/news#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             News
                         </Link>
                     </span>
@@ -53,14 +53,15 @@ export default function Footer(props) {
                 <div>
                     <span style={{display: "block"}}>509 W Colonial Drive #100 Orlando, Florida 32804</span>
                     <span>
-                        P: <a>407-801-1436</a> | E: <a>dellis@assurancemezz.com</a> 
+                        P: <a href="tel:407-801-1436">407-801-1436</a> | E: <a href="mailto:dellis@assurancemezz.com">dellis@assurancemezz.com</a> 
                     </span>
                 </div>
                 <span style={{display: "flex", alignItems: "center"}}>
                     <div id="aml-footer-linkedin">
-                        <img src={linkedin} />
+                        <a href="https://www.linkedin.com/company/assurance-mezzanine-fund/about/" target="_blank">
+                            <img src={linkedin} />
+                        </a>
                     </div>
-                    <a>Login</a>
                 </span>
                 <p>Copyright © { year } Assurance Mezzanine Fund. All rights reserved.</p>
                 
