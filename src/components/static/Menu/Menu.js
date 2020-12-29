@@ -32,22 +32,22 @@ export default function Menu(props) {
             opacity: showTransition ? 1 : 0
         }}>
             <div id="aml-menu" style={{height: showTransition ? "250px" : "0px"}}>
-                <span style={{marginTop: 35}} onClick={() => {close; window.scrollTo(0,0);}}>
+                <span style={{marginTop: 35}} onClick={() => {close(); window.scrollTo(0,0);}}>
                     <Link to="/portfolio#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                         Portfolio
                     </Link>
                 </span>
-                <span onClick={() => {close; window.scrollTo(0,0);}}>
+                <span onClick={() => {close(); window.scrollTo(0,0);}}>
                     <Link to="/investment-criteria#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                         Investment Criteria
                     </Link>
                 </span>
-                <span onClick={() => {close; window.scrollTo(0,0);}}>
+                <span onClick={() => {close(); window.scrollTo(0,0);}}>
                     <Link to="/team#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                         Team
                     </Link>
                 </span>
-                <span onClick={() => {close; window.scrollTo(0,0);}}>
+                <span onClick={() => {close(); window.scrollTo(0,0);}}>
                     <Link to="/news#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                         News
                     </Link>
