@@ -46,7 +46,9 @@ export default function Header(props) {
                         </Link>
                     </span> 
                 </div>
-                <Button onClick={() => window.location.href = "https://viewmyportal.investorflow.com/"} variant="trans-white">Login</Button>
+                <Button onClick={() => window.location.href = "https://viewmyportal.investorflow.com/"} variant="trans-white">
+                    Investor Login
+                </Button>
             </div>
         </div>
     )

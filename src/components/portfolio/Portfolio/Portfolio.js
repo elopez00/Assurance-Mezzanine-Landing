@@ -63,18 +63,6 @@ export default function Portfolio(props) {
                     <div onClick={() => {
                         toggleView(true);
                         document.body.style.overflow = "hidden";
-                        setName("tmd");
-                        setImage(tmd);
-                    }}><img src={tmd} style={{width: "60%"}}/></div>
-                    <div onClick={() => {
-                        toggleView(true);
-                        document.body.style.overflow = "hidden";
-                        setName("sands");
-                        setImage(sands);
-                    }}><img src={sands} style={{width: "60%"}}/></div>
-                    <div onClick={() => {
-                        toggleView(true);
-                        document.body.style.overflow = "hidden";
                         setName("oldmill");
                         setImage(oldmill);
                     }}><img src={oldmill} /></div>
@@ -84,12 +72,6 @@ export default function Portfolio(props) {
                         setName("critHealth");
                         setImage(critHealth);
                     }}><img src={critHealth} /></div>
-                    <div onClick={() => {
-                        toggleView(true);
-                        document.body.style.overflow = "hidden";
-                        setName("healthpro");
-                        setImage(healthpro);
-                    }}><img src={healthpro} /></div>
                     <div onClick={() => {
                         toggleView(true);
                         document.body.style.overflow = "hidden";

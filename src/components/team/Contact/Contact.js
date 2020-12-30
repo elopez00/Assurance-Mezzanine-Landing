@@ -18,8 +18,16 @@ export default function Contact(props) {
         event.preventDefault();
         messageRequested(true);
 
-        emailjs.sendForm('service_senckeo', 'template_gyx8xee', event.target, 'user_MAP8bSPlLJoXvYE3cbZEv')
+        const payload = {
+            from_email: document.getElementById('email').value,
+            from_name: document.getElementById('name').value,
+            message: document.getElementById('message').value,
+            reply_to: document.getElementById('email').value
+        }
+
+        emailjs.send('service_senckeo', 'template_gyx8xee', payload)
             .then(res => {
+                console.log(payload);
                 document.getElementById('email').value = '';
                 document.getElementById('name').value = '';
                 document.getElementById('message').value = '';

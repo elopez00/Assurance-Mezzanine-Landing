@@ -26,12 +26,13 @@ export default function VentureView(props) {
         }}>
             <div id="aml-venture-view">
                 <img src={props.image} />
+                
                 <div id="aml-venture-view-content">
                     <h1>{props.project.name}</h1>
                     <h3>{props.project.location}</h3>
                     <h3>Invested in {props.project.date}</h3>
                     <p>{props.project.desc}</p>
-                    <a>Website: {props.project.website}</a>
+                    <a href={props.project.website} target="_blank">Website: {props.project.website}</a>
                 </div>
                 <i className="material-icons" onClick={() => {
                     props.toggleView();
