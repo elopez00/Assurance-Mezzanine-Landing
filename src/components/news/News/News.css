@@ -15,6 +15,7 @@
     color: var(--blue);
     margin-top: 0px;
     margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 #aml-news p {
@@ -27,8 +28,12 @@
 #aml-news-divider {
     height: 8px;
     width: 200px;
-    background: var(--blue);
-    margin: 35px auto;
+    /* background: var(--blue); */
+    margin: 20px auto;
+}
+
+#aml-news button {
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 800px) {

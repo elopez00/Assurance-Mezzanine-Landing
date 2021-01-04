@@ -68,6 +68,7 @@
     #aml-header-navbar > button {
         position: absolute;
         right: 10px;
+        font-size: 12px;
     }
     #aml-header-navbar {
         position: relative;

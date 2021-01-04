@@ -28,7 +28,7 @@ export default function Criteria(props) {
                     <li>Acquisition financing</li>
                     <li>Management buyouts</li>
                     <li>Transactions to provide shareholder liquidity</li>
-                    <li>Corporate divestitutes</li>
+                    <li>Corporate divestitures</li>
                     <li>Non-sponsored transactions</li>
                     <li>Sponsored led transactions</li>
                 </ul>
@@ -38,7 +38,7 @@ export default function Criteria(props) {
                     <li>$3 to $20 million of customized growth capital per transaction with the ability to syndicate larger financing</li>
                     <li>Mezzanine debt or preferred equity investments</li>
                     <li>Generally interest only for a period and then flexible amortization</li>
-                    <li>3 to 5 year expectedh olding period</li>
+                    <li>3 to 5 year expected holding period</li>
                 </ul>
             </div>
         </div>

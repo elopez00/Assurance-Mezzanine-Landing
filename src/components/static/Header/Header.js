@@ -20,23 +20,23 @@ export default function Header(props) {
                     <Link to="/" style={{ textDecoration: "none"}}>
                         <img src={logo} height="75"/>
                     </Link>
-                    <span>
-                        <Link to="/portfolio" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/portfolio#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             Portfolio
                         </Link>
                     </span>
-                    <span>
-                        <Link to="/investment-criteria" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/investment-criteria#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             Investment Criteria
                         </Link>
                     </span>
-                    <span>
-                        <Link to="/team" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/team#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             Team
                         </Link>
                     </span>
-                    <span>
-                        <Link to="/news" style={{ textDecoration: "none", color: "inherit"}}>
+                    <span onClick={() => window.scrollTo(0,0)}>
+                        <Link to="/news#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>
                             News
                         </Link>
                     </span>
@@ -46,7 +46,9 @@ export default function Header(props) {
                         </Link>
                     </span> 
                 </div>
-                <Button onClick={() => window.location.href = "https://viewmyportal.investorflow.com/"} variant="trans-white">Login</Button>
+                <Button onClick={() => window.location.href = "https://viewmyportal.investorflow.com/"} variant="trans-white">
+                    Investor Login
+                </Button>
             </div>
         </div>
     )

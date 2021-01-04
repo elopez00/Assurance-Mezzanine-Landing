@@ -24,15 +24,15 @@
 
 #aml-member-view {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 150px 1fr;
     gap: 3rem;
     max-width: 1000px;
+    margin: 20px;
     width: 100%;
-    overflow: auto;
 }
 
 #aml-member-view img {
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 100%;
 }
 
@@ -60,7 +60,7 @@
 @media only screen and (max-width: 800px) {
     #aml-member-view {
         grid-template-columns: 1fr;
-        grid-template-rows: 250px 1fr;
+        grid-template-rows: 200px 1fr;
         padding: 0 35px;
         align-items: center;
         justify-items: center;
@@ -69,5 +69,20 @@
     }
     #aml-member-view a {
         padding-bottom: 35px;
+    }
+    #aml-member-view img {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    #aml-member-view {
+        height: 100%;
+    }
+    #aml-member-view img {
+        margin-top: 20px;
+    }
+    #aml-member-view div {
+        margin-top: 20px;
     }
 }
