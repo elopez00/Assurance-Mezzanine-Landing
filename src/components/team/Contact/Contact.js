@@ -60,8 +60,8 @@ export default function Contact(props) {
                     </p>
                     <form id="aml-message-input" onSubmit={sendMail}>
                         <span>
-                            <input type="text" placeholder="Name" id="email"/>
-                            <input type="text" placeholder="Email" id="name"/>
+                            <input type="text" placeholder="Name" id="name"/>
+                            <input type="text" placeholder="Email" id="email"/>
                         </span>
                         <textarea placeholder="Message..." id="message"/>
                         <Button variant="trans-white" style={{width: 100, margin: "20px auto"}}>Send</Button>
