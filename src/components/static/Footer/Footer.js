@@ -30,7 +30,7 @@ export default function Footer(props) {
                         </Link>
                     </span>
                     <Link to="/" style={{ textDecoration: "none"}}>
-                        <img id="aml-footer-logo" src={logo} height="75"/>
+                        <img id="aml-footer-logo" src={logo} onClick={() => window.scrollTo(0,0)} height="75"/>
                     </Link>
                     <span onClick={() => window.scrollTo(0,0)}>
                         <Link to="/team#aml-banner-screen" style={{ textDecoration: "none", color: "inherit"}}>

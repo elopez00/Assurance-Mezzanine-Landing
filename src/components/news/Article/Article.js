@@ -23,9 +23,9 @@ export default function Article(props) {
                         <h3>Website{ props.multiple ? "s" : null }</h3>
                         {props.multiple ? (
                             <ul>
-                                { props.multiple?.map(website => <li>{website}</li>) }
+                                { props.multiple?.map(website => <li><a href={website} target="_blank">{website}</a></li>) }
                             </ul>
-                        ) : (<a>{props.website}</a>)}
+                        ) : (<a href={props.website} target="_blank">{props.website}</a>)}
                     </div>
                 </div>
             </div>

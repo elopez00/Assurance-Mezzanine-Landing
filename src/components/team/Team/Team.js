@@ -92,7 +92,7 @@ export default function Team(props) {
                     }}>
                         <img src={Forrest}/>
                         <h3>Forrest Wooster</h3>
-                        <p>Assosciate</p>
+                        <p>Associate</p>
                     </div>
                 </div>
             </div>

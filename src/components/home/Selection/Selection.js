@@ -27,8 +27,7 @@ export default function Selection(props) {
                     <span>
                         <h3>Investment Criteria</h3>
                         <p>Assurance Mezzanine provides customized
-                            growth solutions to profitable lower-middle-
-                            market
+                            growth solutions to profitable lower-middle-market
                         </p>
                     </span>
                     <span>
@@ -52,8 +51,7 @@ export default function Selection(props) {
                     <div className="aml-selection-reqs" id="aml-selection-image" onClick={() => window.location.href = "/investment-criteria"}/>
                     <h3>Investment Criteria</h3>
                     <p>Assurance Mezzanine provides customized
-                        growth solutions to profitable lower-middle-
-                        market
+                        growth solutions to profitable lower-middle-market
                     </p>
                 </span>
                 <span> 

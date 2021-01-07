@@ -28,7 +28,8 @@
     line-height: 1.8rem;
     font-size: 1.2rem;
     font-weight: 300;
-    margin-bottom: 25px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #aml-article-images {
@@ -47,11 +48,10 @@
 #aml-article ul {
     margin-bottom: 25px;
     list-style-type: square;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--blue);
     line-height: 1.8rem;
     font-weight: 300;
-    font-size: 1.8rem;
 }
 
 @media only screen and (max-width: 800px) {

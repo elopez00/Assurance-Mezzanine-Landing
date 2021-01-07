@@ -1,7 +1,7 @@
 .aml-member-view {
     position: fixed !important;
     z-index: 5;
-    background: white;
+    background: rgb(0,0,0,0.5);
     height: 100%;
     width: 100%;
     transition: opacity 300ms;
@@ -29,6 +29,10 @@
     max-width: 1000px;
     margin: 20px;
     width: 100%;
+    background: white;
+    padding: 60px;
+    border-radius: 20px;
+    position: relative;
 }
 
 #aml-member-view img {
@@ -57,15 +61,19 @@
     color: var(--blue);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 930px) {
+    .aml-member-view {
+        background: white;
+    }
     #aml-member-view {
         grid-template-columns: 1fr;
         grid-template-rows: 200px 1fr;
-        padding: 0 35px;
+        padding: 0 30px;
         align-items: center;
         justify-items: center;
         gap: 0;
         height: 100%;
+        position: static;
     }
     #aml-member-view a {
         padding-bottom: 35px;
@@ -76,8 +84,13 @@
 }
 
 @media only screen and (max-height: 700px) {
+    .aml-member-view {
+        background: white;
+    }
     #aml-member-view {
         height: 100%;
+        position: static;
+        padding: 0;
     }
     #aml-member-view img {
         margin-top: 20px;
